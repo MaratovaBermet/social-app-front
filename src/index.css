@@ -1,4 +1,16 @@
 
+root{
+    --primary-color:#5181B8;
+    --secondori-color:#224B7A;
+    --link-color:#2A5885;
+
+    --content-bg-color:#e7e8ec;
+    --color-bg-shadow-color:#d3d9de;
+
+
+}
+
+
 *{
     padding:0;
     margin: 0;

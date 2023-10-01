@@ -1,6 +1,6 @@
 import styles from './Sideber.module.css'
 
-const Sidber = () => {
+const Sideber = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const Sidber = () => {
     );
 };
 
-export default Sidber;
+export default Sideber;
