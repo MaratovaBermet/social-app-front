@@ -7,9 +7,9 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<Layout/>}>
-            <Route path='/auth' element={<Authorization/>} />
-            <Route index element={<Home/>}/>
+            <Route index element={<Home/>}/> Outlet if path === '/auth'
         </Route>
+          <Route path='/auth' element={<Authorization/>} />
       </Routes>
 
   );

@@ -7,9 +7,12 @@ root{
     --content-bg-color:#e7e8ec;
     --color-bg-shadow-color:#d3d9de;
 
+    --light-blue-color:#DAE2EA;
+    --grey-color:#939393;
 
+    --header-bg-color:#4a76a8;
+    --header-bg-dark-color:#416a9a;
 }
-
 
 *{
     padding:0;

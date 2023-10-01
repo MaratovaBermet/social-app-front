@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import Sideber from "./Sideber/Sideber";
 import {Outlet} from 'react-router-dom';
+import Footer from "./Footer/Footer";
 
 
 const Layout = () => {
@@ -11,6 +12,7 @@ const Layout = () => {
                <Sideber/>
                <Outlet/>
            </main>
+           <Footer/>
         </>
     );
 };
